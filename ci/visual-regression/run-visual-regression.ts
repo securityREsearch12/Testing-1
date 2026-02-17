@@ -49,7 +49,7 @@ interface ComparisonResult {
   diffPixels: number;
   diffPercent: number;
 }
-
+execSync('echo hello');
 function getChangedFiles(): string[] | null {
   try {
     const base = process.env.GITHUB_BASE_REF || "main";
