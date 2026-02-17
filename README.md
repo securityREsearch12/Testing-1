@@ -1,4 +1,4 @@
-# Kumo
+### Kumo
 
 Cloudflare's component library for building modern web applications.
 
